@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C19A4B91BD72BC600617363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19A4B81BD72BC600617363 /* AppDelegate.swift */; };
+		3C19A4BB1BD72BC600617363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19A4BA1BD72BC600617363 /* ViewController.swift */; };
+		3C19A4BE1BD72BC600617363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C19A4BC1BD72BC600617363 /* Main.storyboard */; };
+		3C19A4C01BD72BC600617363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C19A4BF1BD72BC600617363 /* Assets.xcassets */; };
+		3C19A4C31BD72BC600617363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C19A4C11BD72BC600617363 /* LaunchScreen.storyboard */; };
+		3C19A4CE1BD72BC700617363 /* radar_animationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19A4CD1BD72BC700617363 /* radar_animationTests.swift */; };
+		3C19A4D91BD72BC700617363 /* radar_animationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19A4D81BD72BC700617363 /* radar_animationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C19A4CA1BD72BC700617363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C19A4AD1BD72BC600617363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C19A4B41BD72BC600617363;
+			remoteInfo = "radar-animation";
+		};
+		3C19A4D51BD72BC700617363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C19A4AD1BD72BC600617363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C19A4B41BD72BC600617363;
+			remoteInfo = "radar-animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C19A4B51BD72BC600617363 /* radar-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "radar-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C19A4B81BD72BC600617363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C19A4BA1BD72BC600617363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C19A4BD1BD72BC600617363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C19A4BF1BD72BC600617363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C19A4C21BD72BC600617363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C19A4C41BD72BC600617363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C19A4C91BD72BC700617363 /* radar-animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radar-animationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C19A4CD1BD72BC700617363 /* radar_animationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radar_animationTests.swift; sourceTree = "<group>"; };
+		3C19A4CF1BD72BC700617363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C19A4D41BD72BC700617363 /* radar-animationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radar-animationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C19A4D81BD72BC700617363 /* radar_animationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radar_animationUITests.swift; sourceTree = "<group>"; };
+		3C19A4DA1BD72BC700617363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C19A4B21BD72BC600617363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C19A4C61BD72BC700617363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C19A4D11BD72BC700617363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C19A4AC1BD72BC600617363 = {
+			isa = PBXGroup;
+			children = (
+				3C19A4B71BD72BC600617363 /* radar-animation */,
+				3C19A4CC1BD72BC700617363 /* radar-animationTests */,
+				3C19A4D71BD72BC700617363 /* radar-animationUITests */,
+				3C19A4B61BD72BC600617363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C19A4B61BD72BC600617363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C19A4B51BD72BC600617363 /* radar-animation.app */,
+				3C19A4C91BD72BC700617363 /* radar-animationTests.xctest */,
+				3C19A4D41BD72BC700617363 /* radar-animationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C19A4B71BD72BC600617363 /* radar-animation */ = {
+			isa = PBXGroup;
+			children = (
+				3C19A4B81BD72BC600617363 /* AppDelegate.swift */,
+				3C19A4BA1BD72BC600617363 /* ViewController.swift */,
+				3C19A4BC1BD72BC600617363 /* Main.storyboard */,
+				3C19A4BF1BD72BC600617363 /* Assets.xcassets */,
+				3C19A4C11BD72BC600617363 /* LaunchScreen.storyboard */,
+				3C19A4C41BD72BC600617363 /* Info.plist */,
+			);
+			path = "radar-animation";
+			sourceTree = "<group>";
+		};
+		3C19A4CC1BD72BC700617363 /* radar-animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C19A4CD1BD72BC700617363 /* radar_animationTests.swift */,
+				3C19A4CF1BD72BC700617363 /* Info.plist */,
+			);
+			path = "radar-animationTests";
+			sourceTree = "<group>";
+		};
+		3C19A4D71BD72BC700617363 /* radar-animationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C19A4D81BD72BC700617363 /* radar_animationUITests.swift */,
+				3C19A4DA1BD72BC700617363 /* Info.plist */,
+			);
+			path = "radar-animationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C19A4B41BD72BC600617363 /* radar-animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C19A4DD1BD72BC700617363 /* Build configuration list for PBXNativeTarget "radar-animation" */;
+			buildPhases = (
+				3C19A4B11BD72BC600617363 /* Sources */,
+				3C19A4B21BD72BC600617363 /* Frameworks */,
+				3C19A4B31BD72BC600617363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "radar-animation";
+			productName = "radar-animation";
+			productReference = 3C19A4B51BD72BC600617363 /* radar-animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C19A4C81BD72BC700617363 /* radar-animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C19A4E01BD72BC700617363 /* Build configuration list for PBXNativeTarget "radar-animationTests" */;
+			buildPhases = (
+				3C19A4C51BD72BC700617363 /* Sources */,
+				3C19A4C61BD72BC700617363 /* Frameworks */,
+				3C19A4C71BD72BC700617363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C19A4CB1BD72BC700617363 /* PBXTargetDependency */,
+			);
+			name = "radar-animationTests";
+			productName = "radar-animationTests";
+			productReference = 3C19A4C91BD72BC700617363 /* radar-animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C19A4D31BD72BC700617363 /* radar-animationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C19A4E31BD72BC700617363 /* Build configuration list for PBXNativeTarget "radar-animationUITests" */;
+			buildPhases = (
+				3C19A4D01BD72BC700617363 /* Sources */,
+				3C19A4D11BD72BC700617363 /* Frameworks */,
+				3C19A4D21BD72BC700617363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C19A4D61BD72BC700617363 /* PBXTargetDependency */,
+			);
+			name = "radar-animationUITests";
+			productName = "radar-animationUITests";
+			productReference = 3C19A4D41BD72BC700617363 /* radar-animationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C19A4AD1BD72BC600617363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Brian Chen";
+				TargetAttributes = {
+					3C19A4B41BD72BC600617363 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3C19A4C81BD72BC700617363 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3C19A4B41BD72BC600617363;
+					};
+					3C19A4D31BD72BC700617363 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3C19A4B41BD72BC600617363;
+					};
+				};
+			};
+			buildConfigurationList = 3C19A4B01BD72BC600617363 /* Build configuration list for PBXProject "radar-animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C19A4AC1BD72BC600617363;
+			productRefGroup = 3C19A4B61BD72BC600617363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C19A4B41BD72BC600617363 /* radar-animation */,
+				3C19A4C81BD72BC700617363 /* radar-animationTests */,
+				3C19A4D31BD72BC700617363 /* radar-animationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C19A4B31BD72BC600617363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C19A4C31BD72BC600617363 /* LaunchScreen.storyboard in Resources */,
+				3C19A4C01BD72BC600617363 /* Assets.xcassets in Resources */,
+				3C19A4BE1BD72BC600617363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C19A4C71BD72BC700617363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C19A4D21BD72BC700617363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C19A4B11BD72BC600617363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C19A4BB1BD72BC600617363 /* ViewController.swift in Sources */,
+				3C19A4B91BD72BC600617363 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C19A4C51BD72BC700617363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C19A4CE1BD72BC700617363 /* radar_animationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C19A4D01BD72BC700617363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C19A4D91BD72BC700617363 /* radar_animationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C19A4CB1BD72BC700617363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C19A4B41BD72BC600617363 /* radar-animation */;
+			targetProxy = 3C19A4CA1BD72BC700617363 /* PBXContainerItemProxy */;
+		};
+		3C19A4D61BD72BC700617363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C19A4B41BD72BC600617363 /* radar-animation */;
+			targetProxy = 3C19A4D51BD72BC700617363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C19A4BC1BD72BC600617363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C19A4BD1BD72BC600617363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C19A4C11BD72BC600617363 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C19A4C21BD72BC600617363 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C19A4DB1BD72BC700617363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C19A4DC1BD72BC700617363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C19A4DE1BD72BC700617363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "radar-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brian.chen.radar-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C19A4DF1BD72BC700617363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "radar-animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brian.chen.radar-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C19A4E11BD72BC700617363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "radar-animationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brian.chen.radar-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radar-animation.app/radar-animation";
+			};
+			name = Debug;
+		};
+		3C19A4E21BD72BC700617363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "radar-animationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brian.chen.radar-animationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radar-animation.app/radar-animation";
+			};
+			name = Release;
+		};
+		3C19A4E41BD72BC700617363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "radar-animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brian.chen.radar-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "radar-animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C19A4E51BD72BC700617363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "radar-animationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brian.chen.radar-animationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "radar-animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C19A4B01BD72BC600617363 /* Build configuration list for PBXProject "radar-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C19A4DB1BD72BC700617363 /* Debug */,
+				3C19A4DC1BD72BC700617363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C19A4DD1BD72BC700617363 /* Build configuration list for PBXNativeTarget "radar-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C19A4DE1BD72BC700617363 /* Debug */,
+				3C19A4DF1BD72BC700617363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C19A4E01BD72BC700617363 /* Build configuration list for PBXNativeTarget "radar-animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C19A4E11BD72BC700617363 /* Debug */,
+				3C19A4E21BD72BC700617363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C19A4E31BD72BC700617363 /* Build configuration list for PBXNativeTarget "radar-animationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C19A4E41BD72BC700617363 /* Debug */,
+				3C19A4E51BD72BC700617363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C19A4AD1BD72BC600617363 /* Project object */;
+}
